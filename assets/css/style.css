@@ -1,0 +1,54 @@
+#logo {
+  height: 100%;
+  background-image: url("../logo-grey.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 10em) 150%;
+  background-size: auto 90%;
+}
+
+#logo img {
+  height: 80%;
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 981px) {
+  #logo {
+    top: 7em;
+  }
+  #logo img {
+    height: 65%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #logo {
+    top: 3em;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  #logo img {
+    height: 70%;
+  }
+  #logo {
+    background-position: calc(50% + 5em) 80%;
+    background-size: auto 80%;
+  }
+}
+
+.poseban-segment {
+  margin-top: 2em;
+  font-size: 1.2em;
+}
+
+.o-vlasniku p {
+  color: #83878b !important;
+}
+
+.o-vlasniku .bullet {
+  margin-top: 0;
+}
+
+.feature-list h3 > span {
+  font-family: "Source Sans Pro", sans-serif;
+}
